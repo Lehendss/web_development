@@ -4,22 +4,28 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          No Editar el archivo jijij <code>src/App.js</code> y guarda para recargar.
-        </p>
-        <a
-          className="App-link"
-          href="https://platzi.com/reactjs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        
+        <TodoHeader />
+        <TodoFilter />
+
+        <TodoList> 
+            <TodoItem />
+            <TodoItem />
+        </TodoList>
+
+        <TodoCreateButton />
+           </div>
   );
+}
+
+function TodoItem(){
+    return (
+    <li>
+        <span>V</span>
+        <span>Ir a ver a la más bichota!</span>
+        <span>X</span>
+    </li>
+    );
 }
 
 export default App;

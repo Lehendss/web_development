@@ -1,4 +1,4 @@
-import logo from './platzi.webp';
+import logo from './vueltas.jpg';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edita el archivo <code>src/App.js</code> y guarda para recargar.
+          No Editar el archivo jijij <code>src/App.js</code> y guarda para recargar.
         </p>
         <a
           className="App-link"

@@ -1,5 +1,8 @@
 import logo from './vueltas.jpg';
 import './App.css';
+import {TodoHeader} from './TodoHeader';
+import {TodoFilter} from './TodoFilter';
+
 
 function App() {
   return (
